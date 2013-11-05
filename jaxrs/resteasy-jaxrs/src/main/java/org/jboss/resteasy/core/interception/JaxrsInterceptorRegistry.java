@@ -3,7 +3,7 @@ package org.jboss.resteasy.core.interception;
 import org.jboss.resteasy.spi.ResteasyProviderFactory;
 import org.jboss.resteasy.spi.interception.AcceptedByMethod;
 
-import javax.annotation.Priority;
+import javax.annotationd.Priority;
 import javax.ws.rs.NameBinding;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.container.PreMatching;

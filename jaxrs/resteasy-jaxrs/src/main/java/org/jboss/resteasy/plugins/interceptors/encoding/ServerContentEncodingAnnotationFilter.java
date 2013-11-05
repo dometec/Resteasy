@@ -3,7 +3,7 @@ package org.jboss.resteasy.plugins.interceptors.encoding;
 import org.jboss.resteasy.spi.HttpRequest;
 import org.jboss.resteasy.util.AcceptParser;
 
-import javax.annotation.Priority;
+import javax.annotationd.Priority;
 import javax.ws.rs.ConstrainedTo;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.RuntimeType;
@@ -12,6 +12,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.ext.WriterInterceptor;
 import javax.ws.rs.ext.WriterInterceptorContext;
+
 import java.io.IOException;
 import java.util.List;
 import java.util.Set;

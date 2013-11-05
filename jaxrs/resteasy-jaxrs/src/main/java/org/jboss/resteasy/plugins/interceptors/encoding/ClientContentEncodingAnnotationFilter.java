@@ -1,6 +1,6 @@
 package org.jboss.resteasy.plugins.interceptors.encoding;
 
-import javax.annotation.Priority;
+import javax.annotationd.Priority;
 import javax.ws.rs.ConstrainedTo;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.RuntimeType;
@@ -8,6 +8,7 @@ import javax.ws.rs.WebApplicationException;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.ext.WriterInterceptor;
 import javax.ws.rs.ext.WriterInterceptorContext;
+
 import java.io.IOException;
 
 /**

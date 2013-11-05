@@ -2,13 +2,14 @@ package org.jboss.resteasy.plugins.interceptors;
 
 import org.jboss.resteasy.annotations.interception.HeaderDecoratorPrecedence;
 
-import javax.annotation.Priority;
+import javax.annotationd.Priority;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.container.ContainerRequestContext;
 import javax.ws.rs.container.ContainerResponseContext;
 import javax.ws.rs.container.ContainerResponseFilter;
 import javax.ws.rs.core.CacheControl;
 import javax.ws.rs.core.HttpHeaders;
+
 import java.io.IOException;
 
 /**

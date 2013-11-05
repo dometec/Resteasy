@@ -1,11 +1,12 @@
 package org.jboss.resteasy.plugins.interceptors.encoding;
 
-import javax.annotation.Priority;
+import javax.annotationd.Priority;
 import javax.ws.rs.Priorities;
 import javax.ws.rs.client.ClientRequestContext;
 import javax.ws.rs.client.ClientRequestFilter;
 import javax.ws.rs.core.HttpHeaders;
 import javax.ws.rs.ext.Provider;
+
 import java.io.IOException;
 
 /**
